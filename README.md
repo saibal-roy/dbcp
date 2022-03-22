@@ -1,6 +1,12 @@
 ## About Dbcp
 Database Control Panel
 
+## Features
+- DB Backup
+
+## Can be used as
+- Scheduled program using crontab on linux servers
+
 ## Usage
 - Setup
 ```
@@ -21,9 +27,8 @@ DB_PASSWORD=
 ```
 * * * * * cd /{path-to-dbcp} && php artisan schedule:run >> /dev/null 2>&1
 ```
-## Features
-- DB Backup
 
-## Can be used as
-- Scheduled program using crontab on linux servers
-
+## Backup Location
+```
+/{path-to-dbcp}/storage/backups/dbbackups
+```

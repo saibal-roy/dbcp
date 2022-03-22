@@ -7,6 +7,11 @@ Database Control Panel
 ## Can be used as
 - Scheduled program using crontab on linux servers
 
+## Requirements
+- php > 8.0
+- php8.0-zip, php8.0-curl, php8.0-dom
+- composer
+
 ## Usage
 - Setup
 ```
@@ -22,6 +27,10 @@ DB_PORT=3306
 DB_DATABASE=dbackup
 DB_USERNAME=root
 DB_PASSWORD=
+```
+- Run
+```
+composer install
 ```
 - Add in the cron tab
 ```

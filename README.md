@@ -2,7 +2,7 @@
 Database Control Panel
 
 ## Features
-- DB Backup
+- DB Backup for MySQL
 
 ## Can be used as
 - Scheduled program using crontab on linux servers
@@ -11,6 +11,7 @@ Database Control Panel
 - php > 8.0
 - php8.0-zip, php8.0-curl, php8.0-dom
 - composer
+- mysql-client
 
 ## Usage
 - Setup
